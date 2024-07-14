@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    position: fixed;
+    bottom: 10px;
+    padding: 10px;
+    width: 92%;
+    background-color: black;
+    margin-left: 44px;
+    margin-right: 40px;
+    z-index: 1;
+}
+
+nav p {
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.contenedor1 {
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+header {
+    padding: 20px;
+    background-color: white;
+
+}
+
+p {
+    font-size: 1em;
+}
+
+.arriba {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+
+}
+
+.arriba span {
+    font-weight: bold;
+}
+
+.cabecera img {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.cabecera p {
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.tercera {
+    position: absolute;
+    background-color: white;
+    top: 150px;
+    right: 270px;
+    width: 400px;
+    height: 300px;
+}
+
+.contenedor2 {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contenedor2 h2 {
+    margin-top: 20px;
+}
+
+.contenedor2 h3 {
+    margin-top: 20px;
+}
+
+.caras {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+
+
+}
+
+.caras p {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+}
+
+.rodrigo {
+    margin-left: 20px;
+}
+
+.alexandre {
+    margin-left: 15px;
+}
+
+.lemonier {
+    margin-left: 15px;
+}
+
+.nuria {
+    margin-left: 10px;
+}
+
+.miranda {
+    margin-left: 20px;
+}
+
+.circulo1 img {
+    width: 60%;
+}
+
+
+
+
+
+.tercera p {
+    font-size: 0.6em;
+    text-align: center;
+    line-height: 0.8px;
+}
+
+.tercera p span {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.speaker {
+    -webkit-appearance: none;
+    appearance: none;
+    display: block;
+    background-color: black;
+    margin-left: 130px;
+    margin-top: 20px;
+
+}
+
+.speaker span {
+    color: white;
+}
+
+.agenda {
+
+    -webkit-appearance: none;
+    appearance: none;
+    display: block;
+    background-color: white;
+    margin-left: 210px;
+    margin-top: -20px;
+
+}
+
+.fondoprograma {
+    padding-top: 250px;
+    position: relative;
+    text-align: center;
+
+}
+
+.contenido {
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 50px;
+    text-decoration: underline;
+    top: 350px;
+    left: 450px;
+    z-index: -1;
+}
+
+.fondoprograma img {
+    width: 94%;
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+}
+
+.fondoprograma button {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: black;
+
+}
+
+.fondoprograma button span {
+    color: white;
+
+}
+
+
+
+.formulario {
+    margin-top: 100px;
+    display: flex;
+}
+
+.formulario img {
+    margin-left: 150px;
+    width: 30%;
+}
+
+.localizacion {
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.plano {
+
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.plano img {
+    width: 95%;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-left: 45px;
+    width: 90%;
+
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width:801px) {
+
+    body {
+        height: 70%;
+    }
+
+}
+
+@media screen and (max-width:501px) {
+
+    body {
+
+        height: 60%;
+    }
+}
